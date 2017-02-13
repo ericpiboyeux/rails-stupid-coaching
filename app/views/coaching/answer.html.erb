@@ -1,0 +1,9 @@
+
+
+<h2>Your coach : </h2>
+<ul>
+<% @answer.each do |phrase| %>
+  <li><%= phrase%></li>
+<%end%>
+</ul>
+<%= link_to "Next question", root_path%>
